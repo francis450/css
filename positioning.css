@@ -12,12 +12,15 @@ body{
 .child1{
     background-color: aqua;
     height: 100px;
+    display: inline;
 }
 .child2{
     background-color: blue;
     height: 100px;
+    display: inline;
 }
 .child3{
     background-color: chartreuse;
     height: 100px;
+    display: inline;
 }
