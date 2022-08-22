@@ -2,14 +2,22 @@ body{
     /* height: 200px; */
 }
 .parent{
-    
+    background-color: black;
+    display: none;
+    display: inline;
+    height: 1000px;
+    width: 100%;    
+    padding: 10%;
 }
 .child1{
-    
+    background-color: aqua;
+    height: 100px;
 }
 .child2{
-    
+    background-color: blue;
+    height: 100px;
 }
 .child3{
-    
+    background-color: chartreuse;
+    height: 100px;
 }
