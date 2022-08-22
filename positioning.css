@@ -2,26 +2,14 @@ body{
     /* height: 200px; */
 }
 .parent{
-    background-color: blue;
-    height: 500px;
-    padding:50px;
+    
 }
 .child1{
-    position: relative;
-    background-color: blueviolet;
-    height: 170px;
-    left: 50px;
-    position:relative;
+    
 }
 .child2{
-    background-color:aqua;
-    height: 170px;
-    right: 50px;
-    position: relative;
+    
 }
 .child3{
-    background-color:brown;
-    height: 100px;
-    width: 300px;
-    position:absolute;
+    
 }
