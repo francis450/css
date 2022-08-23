@@ -3,24 +3,23 @@ body{
 }
 .parent{
     background-color: black;
-    display: none;
-    display: inline;
+    display: flex;
+    /* flex-direction: column; */
     height: 1000px;
-    width: 100%;    
+    /* justify-content: flex-start; */
+    width: 80%;    
     padding: 10%;
 }
 .child1{
     background-color: aqua;
     height: 100px;
-    display: inline;
+    
 }
 .child2{
     background-color: blue;
     height: 100px;
-    display: inline;
 }
 .child3{
     background-color: chartreuse;
     height: 100px;
-    display: inline;
 }
