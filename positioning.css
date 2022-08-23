@@ -6,7 +6,8 @@ body{
     display: flex;
     flex-direction: column;
     height: 1000px;
-    align-items: center;
+    align-items: flex-end;
+    justify-content: flex-start;
     width: 80%;    
     padding: 10%;
 }
@@ -18,8 +19,10 @@ body{
 .child2{
     background-color: blue;
     height: 100px;
+    width: 50%;
 }
 .child3{
     background-color: chartreuse;
     height: 100px;
+    width: 50%;
 }
