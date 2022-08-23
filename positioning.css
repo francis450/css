@@ -2,6 +2,7 @@ body{
     /* height: 200px; */
 }
 .parent{
+    display: grid;
     background-color: blue;
     height: 500px;
     padding:50px;
