@@ -6,14 +6,14 @@ body{
     display: flex;
     flex-direction: column;
     height: 1000px;
-    /* justify-content: flex-start; */
+    align-items: center;
     width: 80%;    
     padding: 10%;
 }
 .child1{
     background-color: aqua;
     height: 100px;
-    
+    width: 50%;
 }
 .child2{
     background-color: blue;
