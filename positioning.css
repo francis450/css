@@ -3,6 +3,7 @@ body{
 }
 .parent{
     display: grid;
+    grid-template-rows: 200px 200px 200px;
     grid-template-columns: 200px 200px 200px;
     background-color: blue;
     height: 1000px;
