@@ -4,6 +4,7 @@ body{
 .parent{
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
+    grid-auto-rows: 100px;/* Enables flexing of items if they have larger rowa*/ 
     gap: 10px;
     background-color: blue;
     height: 1000px;
@@ -19,13 +20,16 @@ body{
     background-color:aqua;
     height: 100px;
     color: black;
-    
 }
 .child3{
     background-color:brown;
     height: 100px;  
 }
 .child4{
-    background-color: brown;
+    background-color:green;
+    height: 100px;
+}
+.child5{
+    background-color: cornsilk;
     height: 100px;
 }
