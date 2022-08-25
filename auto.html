@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>auto</title>
+</head>
+<body>
+    <style>
+        .container{
+            display: grid;
+            background-color: black;
+            grid-auto-columns: 100px;
+            grid-auto-rows: minmax(100px,auto);
+            /* grid-template-columns: repeat(3, 100px); */
+            /* grid-template-rows: repeat(3, 50px);  */
+            gap: 20px;
+            padding: 50px;
+        }
+        .items{
+            border: 2px;
+
+        }
+        .item1{
+            border: 2px;
+            background-color: aqua;
+            width: 100px;
+        }
+        .item2{
+            border: 2px;
+            background-color:blue;
+        }
+        .item3{
+            border: 2px;
+            background-color: green;
+        }
+        .item4{
+            border: 2px;
+            background-color: yellow;
+        }
+        .item5{
+            border: 2px;
+            background-color: pink;
+        }
+        .item6{
+            border: 2px;
+        }
+
+    </style>
+    
+    <div class="container">
+        <div class="items item1"></div>
+        <div class="items item2"></div>
+        <div class="items item3"></div>
+        <div class="items item4"></div>
+        <div class="items item5"></div>
+    </div>
+
+</body>
+</html>
